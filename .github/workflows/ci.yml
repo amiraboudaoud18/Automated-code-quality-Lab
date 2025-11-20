@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Ruff
-        run: ruff check app
+        run: ruff check .
 
       - name: Run Pytest
         run: pytest
