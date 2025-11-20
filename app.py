@@ -1,5 +1,5 @@
+
 from flask import Flask, jsonify, redirect, render_template, request, url_for
-import os  # This import is unused - will trigger Ruff error
 
 items = []
 
